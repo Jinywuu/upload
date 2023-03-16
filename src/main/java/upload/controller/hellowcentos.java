@@ -11,7 +11,7 @@ public class hellowcentos {
     @GetMapping("/ss")
     public String hellocentos(){
         log.info("收到访问");
-        System.out.println();
-        return null;
+        System.out.println("");
+        return "hhhhhhhhhhasdasdasd";
     }
 }
